@@ -20,7 +20,7 @@ export default defineConfig({
   ],
   resolve: {
     alias: [
-      { find: /^~/, replacement: "" }
+      { find: /^~/, replacement: "" },
     ]
   },
   css: {

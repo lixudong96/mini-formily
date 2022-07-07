@@ -1,6 +1,7 @@
 import {createForm} from "@formily/core";
 import {FormProvider, FormConsumer, Field} from "@formily/react";
 import {FormItem, Input, FormButtonGroup, Submit} from "@formily/antd";
+import {Component} from '@mini-formily/antd/react'
 
 const form = createForm();
 
@@ -9,6 +10,7 @@ const App = () => {
   return (
     <div>
     <h3> FormilyPage</h3>
+    <Component />
     <FormProvider form={form}>
       <Field
         name="input"
